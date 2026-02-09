@@ -25,7 +25,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: yourname/secure-app:${{ github.sha }}
+          tags: arunabstruce/secure-app:${{ github.sha }}
 
       - name: Scan with Trivy
         uses: aquasecurity/trivy-action@0.20.0
